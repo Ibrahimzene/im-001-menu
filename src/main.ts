@@ -9,4 +9,8 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML =/* html */`
 <main>
 	${getCurrentPage()}
 </main>
+<footer>
+	<img src="images/logo.png" class="img-footer" alt=""/>
+	<p>hier kommt ein text</p>
+</footer>
 `;
